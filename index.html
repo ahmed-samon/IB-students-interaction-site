@@ -13,107 +13,80 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Physical Health Education</title>
 </head>
 <body>
   <header>
-    <nav>
+    <h1>Physical Health Education</h1>
+    <nav id="mainNav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="resource.html">Resources</a></li>
-        <li><a href="join.html">Join Study Groups</a></li>
-        <li><a href="games.html">Games</a></li>
+        <li><a href="#pheAims">PHE Aims</a></li>
+        <li><a href="#pheCriterions">PHE Criterions</a></li>
+        <li><a href="#pheExamples">PHE Examples</a></li>
+        <li class="dropdown">
+          <a href="#topics">Topics</a>
+          <div class="dropdown-content">
+            <a href="#fitnessTesting">Fitness Testing</a>
+            <a href="#principlesOfTraining">Principles of Training</a>
+            <a href="#healthScreening">Health Screening</a>
+          </div>
+        </li>
       </ul>
     </nav>
   </header>
 
-  <section class="welcome-section">
-    <h1>Welcome to our Website!</h1>
-    <p>Explore our resources and join study groups to enhance your learning experience.</p>
-     <iframe src="https://www.youtube.com/embed/E2j-frfK-yg" frameborder="10" allowfullscreen></iframe>
-     </div>
-     <section class="#join study groups">
-           <h1> See the attched bellow how IB MYP students get engaged and be part of it</h1>  
-           <p>Refresh yourselves with games</p>
-     </section>
-     
+  <section id="pheAims">
+    <h2>PHE Aims</h2>
+    <p>Describe the aims of Physical Health Education here...</p>
+  </section>
+
+  <section id="pheCriterions">
+    <h2>PHE Criterions</h2>
+    <p>Explain the criteria for Physical Health Education here...</p>
+  </section>
+
+  <section id="pheExamples">
+    <h2>PHE Examples</h2>
+    <p>Provide examples of sample Physical Health Education content...</p>
+  </section>
+
+  <section id="topics">
+    <h2>Topics</h2>
+    <nav id="subNav">
+      <ul>
+        <li><a href="#fitnessTesting">Fitness Testing</a></li>
+        <li><a href="#principlesOfTraining">Principles of Training</a></li>
+        <li><a href="#healthScreening">Health Screening</a></li>
+      </ul>
+    </nav>
+
+    <section id="fitnessTesting">
+      <h3>Fitness Testing</h3>
+      <p>Explore details about fitness testing in Physical Health Education...</p>
+    </section>
+
+    <section id="principlesOfTraining">
+      <h3>Principles of Training</h3>
+      <p>Learn about the principles of training in Physical Health Education...</p>
+    </section>
+
+    <section id="healthScreening">
+      <h3>Health Screening</h3>
+      <p>Understand the importance of health screening in Physical Health Education...</p>
+    </section>
   </section>
 
   <script src="script.js"></script>
 </body>
 </html>
-<style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background-color:#550A35; /* Green blended with some green */
-      color: white;
-    }
-    
-    header {
-      background-color:#FF6633; /* Dark green for the header */
-      padding: 10px 0;
-    }
-    
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      text-align: left;
-    }
-    
-    nav ul li {
-      display: inline-block;
-      margin-right: 20px;
-    }
-    
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-    }
-    
-    .welcome-section {
-      text-align: center;
-      padding: 50px 0;
-    }
-    
-    .welcome-section h1 {
-      font-size: 2.5em;
-      margin-bottom: 20px;
-    }
-    
-    .welcome-section p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
-    }
-    
-    .learn-more-btn {
-      background-color: pink;
-      color: black;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
-    
-    .learn-more-btn:hover {
-      background-color: #FF69B4; /* Lighter pink on hover */
-    }
-    .video {
-            height:200px;
-            width:100px
-    }
-    
-</style>
+
   <!-- Project -->
   <script src="main.js"></script>
 </body>
